@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:hint="date"
+        android:id="@+id/etDate"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"/>
+
+    <EditText
+        android:id="@+id/myEntry"
+        android:hint="what's up for today?"
+        android:gravity="top"
+        android:layout_below="@+id/etDate"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="450sp"/>
+
+    <Button
+        android:id="@+id/btnSaveDiaryEntry"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/myEntry"
+        android:layout_marginTop="48dp"
+        android:text="Save Diary Entry" />
+
+</RelativeLayout>
