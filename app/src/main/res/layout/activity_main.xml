@@ -15,7 +15,7 @@
         android:layout_height="50sp"/>
 
     <EditText
-        android:id="@+id/myEntry"
+        android:id="@+id/etEntry"
         android:hint="what's up for today?"
         android:gravity="top"
         android:layout_below="@+id/etDate"
@@ -28,7 +28,7 @@
         android:id="@+id/btnSaveDiaryEntry"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_below="@+id/myEntry"
+        android:layout_below="@+id/etEntry"
         android:layout_marginTop="48dp"
         android:text="Save Diary Entry" />
 
